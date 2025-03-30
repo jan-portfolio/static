@@ -1,0 +1,208 @@
+@import url('./0.styles.css');
+
+/* Black Container */ 
+.black-container {
+    border-radius: 0.25rem;
+    background-color: var(--black);
+    border: 2px dashed var(--gray);
+}
+
+
+.cv {
+    color: var(--white);
+    background-color: var(--black);
+    background-image: url("./assets/cv-logo/ooorganize.svg");
+}
+
+/* Cv Container */
+.cv-container {
+    padding: 2.5rem 2rem;
+    text-align: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Cv Container */
+
+/* Cv Info */
+.cv-info, .section {
+    width: 80%;
+    padding: 0.5rem;
+}
+
+.cv-info > h2 {
+    /* font-size: 1.2rem; */
+}
+
+.cv-info > span {
+    color: var(--darkgray);
+    display: block;
+    /* font-size: 0.6rem; */
+    padding: 0.2rem 0 1.2rem 0;
+    font-weight: 600;
+}
+/* Cv Info */
+
+/* Cv Contact */
+.cv-contact {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cv-contact > span {
+    width: 100%;
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-contact > span > img {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.cv-contact > span > a {
+    color: var(--white) ;
+    /* font-size: 0.5rem; */
+    padding-left: 0.3rem;
+}
+
+.cv-contact > span > a:hover {
+    text-decoration: underline;
+}
+/* Cv Contact */
+
+/* Cv Experience */
+.cv-experience {
+    padding-top: rem;
+}
+
+.title-container {
+    display: inline-block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 0.25rem;
+    position: relative;
+    top: 22px;
+}
+
+.pink {
+    background-color: var(--pink);
+    transform: rotate(3deg);
+}
+
+.title {
+    font-weight: lighter;
+    /* font-size: 1rem; */
+    letter-spacing: 2px;
+    transform: rotate(-3deg);
+}
+
+.cv-work {
+    padding: 2rem 1rem 1rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+
+}
+
+.cv-work > div > h3 {
+    /* font-size: 0.7rem; */
+}
+
+.cv-work > div > span {
+    display: block;
+    /* font-size: 0.5rem; */
+    color: var(--darkgray);
+}
+/* Cv Experience */
+
+/* Cv Education */
+.green {
+    background-color: var(--green);
+    transform: rotate(-3deg);
+}
+
+.green > h2 {
+    transform: rotate(3deg);
+}
+
+.cv-work > div {
+    /* padding-bottom: 1rem; */
+}
+/* Cv Education */
+
+/* Cv Skills */
+.cream {
+    background-color: var(--cream);
+    transform: rotate(6deg);
+}
+
+.cream > .title {
+    transform: rotate(-6deg);
+}
+
+.cv-skills > .cv-work {
+    gap: 0.5rem;
+}
+
+.cv-skills > .cv-work > div {
+    width: 4rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cv-skills > .cv-work > div > img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+/* Cv Skills */
+
+/* Cv Summary */
+.violet {
+    background-color: var(--violet);
+    transform: rotate(-6deg);
+}
+
+.violet > .title {
+    transform: rotate(6deg);
+}
+
+.cv-summary > .cv-work > p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.3rem;
+    letter-spacing: 1.2px;
+    /* font-size: 0.6rem; */
+}
+/* Cv Summary */
+
+
+
+
+
+
+@media only screen and (orientation: portrait) {
+    .title-container {
+        top: 13px;
+    }
+
+    .title {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,82 @@
+:root {
+    --black: rgb(0, 0, 0);
+    --cream: rgb(140, 127, 92);
+    --green: rgb(72, 196, 47);
+    --pink: rgb(219, 94, 167);
+    --white: rgb(255, 255, 255);
+    --gray: rgb(226, 225, 225);
+    --darkgray: rgb(149, 149, 149);
+    --violet: rgb(102, 42, 187);
+    --blue: rgb(45, 27, 241);
+    --gradient: linear-gradient(90deg, rgba(131,131,131,1) 0%, rgba(255,255,255,1) 50%, rgba(131,131,131,1) 100%);
+
+    /* Font Size */
+    --title1: clamp(22px, 1.3rem, 66px);
+    --title2: clamp(18px, 1rem, 54px);
+    --paragraph: clamp(16px, 0.82rem, 48px);
+    --span: clamp(14px, 0.7rem, 42px);
+    --links: clamp(12px, 0.5rem, 36px);
+}
+
+/* Global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: clamp(12px,3vw, 80px);
+    font-family: system-ui, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--gradient);
+}
+
+h1 {
+    font-size: var(--title1);
+}
+
+h2 {
+    font-size: var(--title2);
+}
+
+h3 {
+    font-size: var(--span);
+}
+
+p {
+    font-size: var(--paragraph);
+}
+
+span {
+    font-size: var(--span);
+}
+
+li {
+    list-style: none;
+}
+
+.links1 {
+    font-size: var(--span);
+}
+
+a, .links2 {
+    font-size: var(--links);
+}
+
+input, textarea, button {
+    font-size: var(--links);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover {
+    color: var(--gray);
+}
+/* Global */

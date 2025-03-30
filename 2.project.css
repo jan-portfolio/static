@@ -1,0 +1,74 @@
+@import url("./0.styles.css");
+
+/* Project Section*/
+#project-section {
+    margin: 3rem 2rem 0 2rem;
+}
+
+#project-section > h2 {
+    width: max-content;
+    margin: 0 auto;
+
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--black);
+    /* font-size: 1.2rem; */
+}
+
+#project {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#project > div {
+    width: 70%;
+    min-height: max-content;
+    margin: 1rem 0 3rem 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--gray);
+    border-radius: 1rem;
+}
+
+#project > div > img{
+    width: 100%;
+    height: auto;
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+#project > div > h2 {
+    /* font-size: 1.2rem; */
+}
+
+#project > div > div > a {
+    /* font-size: 0.8rem; */
+    width: max-content;
+    margin: 0 auto;
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+}
+
+#project > div > div > a:hover {
+    border-bottom: 3px solid var(--violet);
+    color: var(--violet);
+}
+
+#project > div > .logo-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+#project > div > .logo-container > .logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    /* background-color: black; */
+    /* border: 1px solid var(--black); */
+}
+/* Project Section*/
