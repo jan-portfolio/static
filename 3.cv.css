@@ -7,11 +7,11 @@
     border: 2px dashed var(--gray);
 }
 
-
 .cv {
     color: var(--white);
     background-color: var(--black);
     background-image: url("./assets/cv-logo/ooorganize.svg");
+    padding-top: 2rem;
 }
 
 /* Cv Container */
@@ -110,7 +110,6 @@
 
 .cv-work {
     padding: 2rem 1rem 1rem 1rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,11 +195,6 @@
     /* font-size: 0.6rem; */
 }
 /* Cv Summary */
-
-
-
-
-
 
 @media only screen and (orientation: portrait) {
     .title-container {

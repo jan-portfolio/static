@@ -9,7 +9,7 @@
 .contact-me > div {
     width: 70%;
     margin: 0 auto;
-    padding: 0.5rem 0;
+    padding: 2rem 0 0 0.5rem;
 }
 
 .contact-me > div > h2 {
@@ -62,7 +62,7 @@
 .contact-me > div > form > button {
     background-color: transparent;
     padding: 0.2rem 1rem;
-    border: 3px solid;
+    border: 3.5px solid;
     border-color: transparent var(--black);
     /* font-size: 0.5rem; */
     font-weight: 600;

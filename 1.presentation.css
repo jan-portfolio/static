@@ -182,6 +182,10 @@
     padding: 0.3rem;
 }
 
+.info-section > .light > div > section > nav > ul > li > a:hover {
+    opacity: 0.8;
+}
+
 .info-section > .light > div > section > nav > ul > li > a > img {
     display: inline-block;
     height: 100%;
