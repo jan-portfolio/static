@@ -44,7 +44,7 @@
     border-style: solid;
     border-color: transparent transparent var(--black) var(--black);
 
-    transition: border-color 100ms ease-in-out;
+    transition: border-color 300ms ease-in-out;
 }
 
 .contact-me > div > form > input[type="text"]:focus,
@@ -67,7 +67,7 @@
     /* font-size: 0.5rem; */
     font-weight: 600;
     letter-spacing: 0.5px;
-    transition: border 100ms ease-in-out;
+    transition: border 300ms ease-in-out;
 }
 
 .contact-me > div > form > button:hover {
