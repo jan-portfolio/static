@@ -92,5 +92,6 @@ project.innerHTML = `
 
 // Collapse Menu
 function collapse() {
-  document.getElementsByClassName("collapse").classList.add("collapse");
+  document.querySelector(".ham-menu").classList.toggle("active");
+  document.querySelector(".nav-list").classList.toggle("active");
 }

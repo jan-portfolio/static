@@ -37,11 +37,15 @@
     <main>
       <!-- Navigation Menu -->
       <section class="nav-section">
-        <nav>
-          <div>
-            <button onclick="collapse()">=</button>
-          </div>
-          <ul class="nav-list">
+        <div>
+          <button title="Menu Button" class="ham-menu" onclick="collapse()">
+            <span class="ham"></span>
+            <span class="ham"></span>
+            <span class="ham"></span>
+          </button>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list collapse">
             <li class="list-item">
               <a class="item-link links1" href="#Top">Top</a>
             </li>
@@ -49,7 +53,10 @@
               <a class="item-link links1" href="#project-section">Projects</a>
             </li>
             <li class="list-item">
-              <a class="item-link links1" href="#contact-me">Contact Me</a>
+              <a class="item-link links1" href="#cv-section">Curriculum</a>
+            </li>
+            <li class="list-item">
+              <a class="item-link links1" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -118,7 +125,7 @@
 
       <!-- Curriculum -->
       <section class="cv">
-        <div class="cv-container">
+        <div id="cv-section" class="cv-container">
           <!-- Curriculum Personal Information -->
           <section class="cv-info">
             <h2>Jan Nieves Cedeño</h2>
@@ -268,8 +275,8 @@
         </div>
       </section>
 
-      <section class="contact-me">
-        <div id="contact-me">
+      <section id="contact" class="contact-me">
+        <div>
           <h2>CONTACT</h2>
           <form action="https://api.web3forms.com/submit" method="POST">
             <input
