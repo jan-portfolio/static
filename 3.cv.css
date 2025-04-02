@@ -247,4 +247,9 @@
         position: static;
     }
 
+    .cv-summary {
+        flex: 2;
+        padding: 1rem;
+    }
+
 }
