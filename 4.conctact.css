@@ -75,3 +75,13 @@
     border-bottom-color: var(--black);
 }
 /* Contact Me */
+
+@media (min-width: 426px) {
+    .contact-me {
+        padding-top: 2.5rem;
+    }
+
+    .contact-me > div{
+        padding-top: 0;
+    }
+}
