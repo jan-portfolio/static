@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-    font-size: var(--span);
+    font-size: var(--paragraph);
 }
 
 p {
@@ -80,3 +80,15 @@ a:hover {
     color: var(--gray);
 }
 /* Global */
+
+@media (min-width: 426px) {
+    :root {
+        /* Font Size */
+        --title1: clamp(22px, 1rem, 66px);
+        --title2: clamp(18px, 0.67rem, 54px);
+        --paragraph: clamp(16px, 0.5rem, 48px);
+        --span: clamp(14px, 0.4rem, 42px);
+        --links: clamp(12px, 0.3rem, 36px);
+    }
+
+}

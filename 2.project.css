@@ -72,3 +72,31 @@
     /* border: 1px solid var(--black); */
 }
 /* Project Section*/
+
+@media (min-width: 426px) {
+    #project-section {
+        padding: 3rem 0;
+    }
+
+    #project {
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: start;
+        column-gap: 1rem;
+        row-gap: 0.5rem;
+    }
+
+    #project > div {
+        margin-bottom: 0;
+        max-width: 40%;
+    }
+
+    #project > div > div > a {
+        display: block;
+    }
+
+    #project > div > .logo-container {
+        margin-top: 0.5rem;
+    }
+}

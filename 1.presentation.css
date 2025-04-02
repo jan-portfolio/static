@@ -214,3 +214,17 @@
 }
 
 /* Info Section */
+
+@media (min-width: 426px) {
+
+    /* Menu */
+    .nav-section > div > .ham-menu {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .nav-section > div {
+        padding: 0.3rem 1rem 0.3rem;
+    }
+
+}
