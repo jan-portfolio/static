@@ -239,6 +239,10 @@
         padding-top: 1.2rem;
     }
 
+    .cv-skills {
+        align-self: center;
+    }
+
     .cv-skills > .cv-work > div {
         position: static;
     }
