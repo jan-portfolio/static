@@ -1,5 +1,7 @@
 # Portfolio Website
 
+![Portfolio Preview](image.png)
+
 A responsive static portfolio website showcasing software development projects and professional experience.
 
 ## 🚀 Quick Start

@@ -154,6 +154,13 @@
     transform: rotate(-6deg);
 }
 
+.cv-skills-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    align-items: center;
+}
+
 .cv-skills > .cv-work {
     gap: 0.5rem;
 }
