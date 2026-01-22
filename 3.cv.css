@@ -32,6 +32,10 @@
     padding: 0.5rem;
 }
 
+.cv-info {
+    align-self: center;
+}
+
 .cv-info > span {
     color: var(--darkgray);
     display: block;
